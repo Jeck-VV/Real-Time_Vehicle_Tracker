@@ -1,3 +1,0 @@
-[workspace]
-members = ["common", "server", "client"]
-resolver = "2"
