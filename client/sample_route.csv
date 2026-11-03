@@ -1,0 +1,35 @@
+# Percorso di esempio: Torino -> Chivasso -> Milano
+# Formato: lat, lon
+# Ogni riga viene inviata ad intervalli di 30 secondi dal simulatore.
+#
+# Torino - Politecnico
+45.0628, 7.6623
+# Torino - Porta Nuova
+45.0618, 7.6782
+# Torino - Lingotto
+45.0312, 7.6663
+# Chivasso
+45.1876, 7.8868
+# Santhià
+45.3650, 8.1728
+# Vercelli
+45.3222, 8.4186
+# Novara
+45.4467, 8.6210
+# Magenta
+45.4644, 8.8831
+# Milano - Fiera
+45.4741, 9.1533
+# Milano - Duomo
+45.4642, 9.1900
+# --- Simulazione pausa: il veicolo resta fermo (stesse coordinate ripetute) ---
+45.4642, 9.1900
+45.4642, 9.1900
+45.4642, 9.1900
+45.4642, 9.1900
+45.4642, 9.1900
+45.4642, 9.1900
+# --- Fine pausa (6 invii = 3 minuti fermo) ---
+# Riparte verso la stazione
+45.4861, 9.2042
+45.4844, 9.2000

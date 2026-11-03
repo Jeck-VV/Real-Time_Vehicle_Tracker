@@ -1,0 +1,12 @@
+# Rust build artifacts
+target/
+
+# Runtime data and logs
+utenti_georuggine.json
+*.log
+
+# Local operating-system and editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
